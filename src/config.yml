@@ -1,0 +1,26 @@
+#settings
+smtp: "ssl0.ovh.net"
+port: "587"
+email: "EMAIL HERE"
+password: "PASSWORD HERE"
+email-text-website: "Here is your token: %securitytoken%"
+email-subject-website: "[U][BloodEmails][/U] Security Token"
+email-text-forum: "Here is your token: %securitytoken%"
+email-subject-forum: "[U][BloodEmails][/U] Security Token"
+
+messages:
+  no-permission: "&cYou do not have permission to execute this command!"
+  invalid-arguments-website: "&cInvalid arguments! /websitetoken <email>"
+  invalid-arguments-forum: "&cInvalid arguments! /forumtoken <email>"
+  invalid-email: "&cYou have entered an invalid email!"
+  tokens-empty: "&cThere is no tokens available at the moment, please try again later."
+  send-email-website: "&eYou have sent a website token to %email%."
+  send-email-forum: "&eYou have sent a forum token to %email%."
+
+website-tokens:
+  - "ELdMe3Bch6GQ"
+  - "gsYi5xP4UmV4"
+  
+forum-tokens:
+  - "CQ7s4q3DYcRK"
+  - "zApV6ZS2R8qd"

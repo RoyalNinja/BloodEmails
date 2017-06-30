@@ -1,0 +1,11 @@
+name: BloodEmails
+version: 1.0
+main: com.royalninja.bloodemails.Main
+description: BloodEmails plugin.
+commands:
+     websitetoken:
+         usage: /<command>
+         description: Send a website token to a specified email.
+     forumtoken:
+         usage: /<command>
+         description: Send a website token to a specified email.
